@@ -1,0 +1,18 @@
+From Exam 1, Problem 2:
+
+Suppose you are asked to implement a software for linear algebra, that does various operations
+on vectors and matrices. You are asked to implement the following functionalities:
+• Creating a matrix.
+• Displaying a matrix.
+• Addition of two matrices.
+• Multiplication of two matrices.
+• Obtaining the transpose of a matrix.
+• Checking if a matrix is symmetric (i.e., if a matrix is equal to its transpose).
+• Computing the trace (sum of the diagonal elements) if the matrix is a square matrix.
+
+a. Implement an object-oriented solution of the above in any programming language of your
+choice.
+b. Describe some test cases that you want the application to pass to ensure that the
+application would run without any error.
+c. Would you prefer a plan-driven or an agile method for developing the above application?
+State the reason for the selection of your choice.
