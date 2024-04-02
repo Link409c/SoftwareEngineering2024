@@ -33,6 +33,14 @@ public class Matrix {
     public Matrix(int rows, int columns){
         double[][] newMatrix = new double[rows][columns];
         setMatrix(newMatrix);
+        setNumRows(rows);
+        setNumColumns(columns);
+    }
+    public Matrix(){
+        double[][] newMatrix = new double[5][5];
+        setMatrix(newMatrix);
+        setNumRows(5);
+        setNumColumns(5);
     }
     public void setMatrix(double[][] aMatrix){
         this.matrix = aMatrix;
@@ -40,8 +48,27 @@ public class Matrix {
     public double[][] getMatrix(){
         return matrix;
     }
+
+    public int getNumRows() {
+        return numRows;
+    }
+
+    public void setNumRows(int numRows) {
+        this.numRows = numRows;
+    }
+
+    public int getNumColumns() {
+        return numColumns;
+    }
+
+    public void setNumColumns(int numColumns) {
+        this.numColumns = numColumns;
+    }
+
     /**
      * a 2-D array of values.
      */
     private double[][] matrix;
+    private int numRows;
+    private int numColumns;
 }
