@@ -5,15 +5,15 @@ import Exam1.Structures.Matrix;
 public class MatrixCalculator {
 
     public Matrix addMatrices(){
-        return sum;
+        return null;
     }
 
     public Matrix multiplyMatrices(){
-        return product;
+        return null;
     }
 
     public Matrix transposeMatrix(){
-        return transpose;
+        return null;
     }
 
     public boolean symmetric(Matrix aMatrix){
