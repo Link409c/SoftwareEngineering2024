@@ -3,14 +3,6 @@ package Lab4.Tester;
 import Lab4.Program.TimeParser;
 
 public class TimeParserTester {
-    /*
-    Write test cases for parseTimeToMinute() to provide full branch coverage:
-    • Draw the Control Flow Graph (CFG) of the parseTimeToMinute() method.
-    • Write a minimum number of test cases to provide full statement coverage and branch
-    coverage respectively.
-
-    You can refer to Lecture Slides 8 (Software Testing) that have been posted on Blackboard.
-    */
     public static void main(String[] args) {
         //test case for correct data type
         //test case for length of entry
