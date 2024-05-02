@@ -1,0 +1,24 @@
+Cyclomatic Complexity:
+
+10 Edges - 9 Nodes + 2 : 3
+
+Test Cases:
+
+Test input syntax
+Test input data types
+Test correct object creation
+Test null objects
+Test user parameter syntax
+Test user parameter bounds
+Test available / reissue statement branches
+    > reissue state
+    > no reissue state
+    > bad bounds
+Test book count bounds
+Test book count syntax
+Test user reissue bounds
+Test transaction creation
+Test transaction errors
+Test transaction ID syntax
+Test null transaction ID
+Test correct output
